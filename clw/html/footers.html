@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "footer";
+
+border: 1px solid red;
+gap: 20px;
+}
+
+.box{
+border: 1px solid blue;
+height: 200px;
+}
+
+.box1{
+grid-area: header;
+} 
+.box2{
+    grid-area: footer;
+}
+
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+<div class="box box1">
+
+</div>
+
+<div class="box box2">
+    
+</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: #f0f2f5;
+}
+a{
+    text-decoration:none;
+    color: #1877f2;
+}
+span{
+     font-weight: bold;
+}
+
+.container{
+    width: 400px;
+     height: 500px;
+     margin: auto ;
+     text-align: center;
+    
+}
+.login-box{
+    background-color: white;
+padding: 20px;
+margin-top: 100px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+::placeholder{
+font-size: 15px;
+padding: 10px;
+}
+input{height: 40px;
+    width: 100%;
+border-radius: 5px;
+border: 1px solid;color: rgb(207, 207, 207);
+}
+.login-btn{
+background-color: #1877f2;
+color: white;
+font-size: 16px;
+font-weight: bold;
+}
+.new-acc-btn{
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    padding: 10px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 16px;
+}
+p{
+    color: #1877f2;
+    font-size: xx-large;
+    font-weight: bold;
+}

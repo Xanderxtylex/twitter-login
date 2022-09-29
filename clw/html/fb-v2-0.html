@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: "left right"
+            ;
+            border: 2px solid red;
+            gap: 10px;
+            height: 100vh;
+        }
+
+        
+        .box {
+            border: 2px solid blue;
+
+        }
+
+        .box1{
+            grid-area: left;
+            text-align: center ;
+            margin: 100px;
+       
+        }
+
+        .box2{
+            grid-area: right;
+            text-align: center ;
+        }
+     body{
+    background-color: #f0f2f5;
+}
+a{
+    text-decoration:none;
+    color: #1877f2;
+}
+span{
+     font-weight: bold;
+}
+
+.login-box{
+    background-color: white;
+padding: 20px;
+margin-top: 100px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+::placeholder{
+font-size: 15px;
+padding: 10px;
+}
+input{height: 40px;
+    width: 100%;
+border-radius: 5px;
+border: 1px solid;color: rgb(207, 207, 207);
+}
+.login-btn{
+background-color: #1877f2;
+color: white;
+font-size: 16px;
+font-weight: bold;
+}
+.new-acc-btn{
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    padding: 10px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 16px;
+}
+p{
+    color: #1b7cfa;
+    font-size: 40px;
+    font-weight: bold;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box box1">
+        
+            <p>facebook</p>
+            Facebook helps you connect and share 
+            <br> with the people in your life.
+            
+        </div>
+        <div class="box box2">
+                <div class="login-box">
+                    <input type="text" placeholder="Email address">
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Password" >
+                    <br>
+                    <br>
+                    <input type="submit" value="Login" class="login-btn">
+                    <br>
+                    <br>
+                    <a href="#">Forget Password?</a>
+                    <br>
+                    <br>
+                    <button class="new-acc-btn">Create New Account</button>
+                     
+                </div>
+                <span>
+                    Create a page,</span>
+                    <br>
+                    for a celebrity, brand or business
+                    
+
+            </div>
+                        
+       
+    </div>
+
+</body>
+
+</html>
